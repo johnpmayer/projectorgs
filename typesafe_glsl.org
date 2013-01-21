@@ -1,0 +1,15 @@
+* Type-Safe GLSL
+** Problem
+   Shaders get compiled into shader objects, and certain attributes
+   and buffers need to be bound at runtime. At the moment this
+   requires an imperative style of programming, and you can have an
+   error in your program if the bindings you make don't line up with
+   the semantics of the shader
+** Solution
+   Develop a embedded Domain Specific Language (eDSL) that generates
+   GLSL source (vertex and fragment shaders) along with a function
+   that will only compile if all and only the correct inputs are
+   provided.
+** Approach
+   Template Haskell!
+** Progress

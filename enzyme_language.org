@@ -1,0 +1,16 @@
+* Enzyme Programming Language
+** Problem
+   Microcontroller programming sucks, personally. Having to write code
+   that observes all sorts of pins, and then manually doing updates,
+   is obnoxious in the context of experience with functional
+   programming. Code is often written in C/C++. The code can be
+   translated by hand from reactive modeling languages, but this
+   leaves error.
+*** Research
+    I don't know too much about automated compilation from models to code.
+** Solution
+   Develop a language with rooted in functional reactive
+   programming FRP. Develop a runtime based on the ideas of CFRP
+   (Concurrent FRP). Target AVR assembly.
+** Approach
+** Progress
